@@ -49,12 +49,12 @@ header{
     list-style: none;
 
 }
-.nav li{
+.nav ul a{
     margin: 0px 15px;
     font-size:15px;
     font-weight: 600;
     cursor: pointer;
-    
+    text-decoration: none;
     padding:5px 12px;
     border-radius: 8px;
     
@@ -129,7 +129,7 @@ article h1{
     margin-left: 100px;
     font-weight: bolder;
 }
-#projects{
+#project{
     width: 95%;
     margin: auto;    
 display: grid;
@@ -141,7 +141,7 @@ place-items: center;
     height: 350px;
     border:1px soild gray;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .project_image{
     width:570px;
@@ -165,5 +165,24 @@ place-items: center;
     left:0;
     right: 0;
     bottom:0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.item a 
+{
+    background-color: #afe4e6;;
+    text-decoration: none;
+    margin-left:30px ;
+    padding:5px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+footer{
+    height: 200px;
+    background-color: #C2DEDF;
+    padding: 50px;
+}
+
+footer h1{
+    margin-left: 100px;
+    margin-bottom: 50px;
 }
