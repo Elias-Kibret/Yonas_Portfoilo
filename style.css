@@ -84,6 +84,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #c7eeef;
 }
 .hero-hi{
     display: flex;
@@ -92,7 +93,7 @@ main{
 .hero-image{
     width:450px;
     height: 450px;
-    background-color: #C2DEDF;
+    background-color: #afe4e6;
     border-radius: 50%;
     border: 1px solid lightgrey;
     filter: drop-shadow(0 0 0.75rem rgb(232, 226, 228));
@@ -104,4 +105,65 @@ main{
 .hero-text p{
     margin-bottom: 20px;
 }
+section{
+    background-color: #C2DEDF;
+    padding: 50px;
+}
+.about{
+    width: 80%;
+    margin: auto;
 
+}
+.about p{
+    margin-top: 30px;
+    text-align: justify;
+    width:80%;
+
+}
+article{
+    
+    background-color: #F6F6F6;
+}
+article h1{
+    padding: 100px 0px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+#projects{
+    width: 95%;
+    margin: auto;    
+display: grid;
+grid-template-columns: 1fr 1fr;
+place-items: center;
+}
+.item{
+    width:570px;
+    height: 350px;
+    border:1px soild gray;
+    position: relative;
+    margin-bottom: 50px;
+}
+.project_image{
+    width:570px;
+    height: 350px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+
+}
+.project_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.project-text{
+    position: absolute;
+    color:yellow;
+    padding:20px;
+    font-size: 15px;
+    left:0;
+    right: 0;
+    bottom:0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
